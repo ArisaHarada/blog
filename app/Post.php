@@ -1,13 +1,16 @@
 <?php
 
-namespace App;
+namespace App\Http\Controllers;
 
-use Illuminate\Database\Eloquent\Model;
+use App\Post;
+use Illuminate\Http\Request;
 
-class Post extends Model
+class PostController extends Controller
 {
+
     public function getByLimit(int $limit_count = 10)
 {
     return $this->orderBy('updated_at', 'DESC')->limit($limit_count)->get();
 }
 }
+?>
