@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="footer">
-            <a href="/">戻る</a>
+            <a href="/">戻る</a></div>
         </div>
     </body>
 </html>
